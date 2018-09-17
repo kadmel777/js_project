@@ -1,0 +1,83 @@
+.wrapper {
+    display:flex;
+}
+
+nav{
+    background:rgb(107, 94, 94);    
+}
+ul{
+    padding:5px;
+}
+li{
+    color:white;
+    padding:10px;
+    border: solid black 1px;
+    list-style-type: none;  
+    margin-top: -1px;
+    margin-left: -1px;
+    border-radius: 5px;   
+    
+}
+
+
+li:hover{
+    background: rgb(170, 157, 157);
+    cursor: pointer;
+}
+textarea{
+    width: 90%;
+    height: 300px;;
+}
+.vs-container{
+    background: white;
+    padding: 10px;
+}
+
+.container {  
+    overflow: auto;  
+    height: 580px;
+    width: 100%;
+    display: block;
+    padding:10px;
+    background: rgb(207, 204, 204);
+}
+
+div[lang="formu"]{
+    width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+div[lang="canv"]{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    overflow: auto;
+    background-color: white;
+    height: 100%;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    
+    
+}
+
+button[lang="useform"]{
+    display: block;
+    margin: 0 auto;
+}
+
+
+input[lang="useform"]{
+    display: block;
+    margin: 0 auto;
+}
+
+svg{
+    width: 100%;
+    overflow: auto;
+    height: 100%;
+}
