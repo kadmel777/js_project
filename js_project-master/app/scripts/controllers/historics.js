@@ -111,9 +111,9 @@ function historicsActionsController() {
         else{
             posxf=0;
         }
-        if (posxi==posxf){
-            posxf=posxf+1;
-        }
+       // if (posxi==posxf){
+       //     posxf=posxf+1;
+       // }
         //hh3.push([init,fint]);
         text+= drawlih(posxi,i,posxf);
         text+= drawliv(posxi,i);

@@ -89,13 +89,16 @@ function gitaction(comando,comentario){
             }
         }
         if (bol==false){
-            REPO.push( new Repositorio(document.getElementById("ver-text").value , usuAct,new Date(),comentario,RAMA));
+            if (RAMA != "Principal"){
+                REPO.push( new Repositorio(document.getElementById("ver-text").value , usuAct,new Date(),comentario,RAMA));
+                REPO.push( new Repositorio(document.getElementById("ver-text").value , usuAct,new Date(),comentario,"Principal"));
+            }
         }
     }
 
     else if (comando === "git branch "){
         RAMA= comentario;
-        document.getElementById("debu").innerHTML = RAMA;
+        //document.getElementById("debu").innerHTML = RAMA;
      
     }
     else {
